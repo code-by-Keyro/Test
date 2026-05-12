@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="de" data-page="contact">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt | Studio Zwei</title>
+  <meta name="description" content="Projektanfrage senden und innerhalb von 24 Stunden eine erste Rückmeldung erhalten.">
+  <meta property="og:title" content="Kontakt | Studio Zwei">
+  <meta property="og:description" content="Kontaktformular für Website-Anfragen.">
+  <meta property="og:type" content="website">
+  <script src="/assets/theme-init.js"></script>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPoint","contactType":"project inquiries","availableLanguage":["de","en"],"email":"kontakt@example.com"}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a class="brand" href="/"><span class="brand-mark">SZ</span><span><span data-i18n="brand.name">Studio Zwei</span><small data-i18n="brand.claim">Webdesign und Entwicklung</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" data-i18n="nav.menu">Menü</button>
+      <div class="nav-links">
+        <a href="/" data-i18n="nav.home">Start</a>
+        <a href="/services/" data-i18n="nav.services">Leistungen</a>
+        <a href="/pricing/" data-i18n="nav.pricing">Preise</a>
+        <a href="/maintenance/" data-i18n="nav.maintenance">Wartung</a>
+        <a href="/about/" data-i18n="nav.about">Über uns</a>
+        <a href="/contact/" aria-current="page" data-i18n="nav.contact">Kontakt</a>
+        <div class="controls"><button class="lang-toggle" type="button" data-lang-toggle aria-label="Sprache wechseln">EN</button><button class="icon-button" type="button" data-theme-toggle aria-label="Dark Mode aktivieren">◐</button></div>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="contact-aside">
+          <div>
+            <p class="eyebrow" data-i18n="nav.contact">Kontakt</p>
+            <h1 class="page-title" data-i18n="contact.title">Projekt anfragen</h1>
+            <p class="lead" data-i18n="contact.lead">Schreiben Sie uns kurz, was entstehen soll. Wir melden uns spätestens innerhalb von 24 Stunden.</p>
+          </div>
+          <div class="legal-box">
+            <strong data-i18n="contact.directTitle">Direkte Kontaktwege</strong>
+            <p class="muted" data-i18n="contact.directNote">Anfragen über WhatsApp, E-Mail oder Social Media können etwas länger dauern. Bitte rechnen Sie dort mit bis zu 36 Stunden Antwortzeit.</p>
+          </div>
+          <div class="contact-methods" aria-label="Alternative Kontaktwege">
+            <a class="contact-method" href="mailto:kontakt@example.com"><strong data-i18n="contact.emailLabel">E-Mail</strong><span>kontakt@example.com</span></a>
+            <a class="contact-method" href="https://wa.me/4900000000000"><strong>WhatsApp</strong><span>+49 000 0000000</span></a>
+            <a class="contact-method" href="#"><strong>Instagram</strong><span>@studio-zwei-placeholder</span></a>
+            <a class="contact-method" href="#"><strong>LinkedIn</strong><span>Studio Zwei Placeholder</span></a>
+          </div>
+        </aside>
+
+        <form class="form card" id="contact-form" action="/backend/contact.php" method="post" novalidate>
+          <input type="hidden" name="lang" value="de">
+          <div id="form-message" class="form-message" tabindex="-1" role="status" aria-live="polite"></div>
+          <p class="form-hint" data-i18n="form.requiredHint">Pflichtfelder sind mit * gekennzeichnet.</p>
+          <div class="grid two">
+            <div class="field"><label for="first_name"><span data-i18n="form.firstName">Vorname</span> <span class="required" aria-hidden="true">*</span></label><input id="first_name" name="first_name" autocomplete="given-name" required></div>
+            <div class="field"><label for="last_name"><span data-i18n="form.lastName">Name</span> <span class="required" aria-hidden="true">*</span></label><input id="last_name" name="last_name" autocomplete="family-name" required></div>
+          </div>
+          <div class="grid two">
+            <div class="field"><label for="company" data-i18n="form.company">Firma</label><input id="company" name="company" autocomplete="organization"></div>
+            <div class="field"><label for="contact_person" data-i18n="form.contactPerson">Ansprechpartner</label><input id="contact_person" name="contact_person"></div>
+          </div>
+          <div class="grid two">
+            <div class="field"><label for="email"><span data-i18n="form.email">E-Mail</span> <span class="required" aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="phone" data-i18n="form.phone">Telefonnummer</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+          </div>
+          <fieldset class="field">
+            <legend><span data-i18n="form.package">Gewünschte Pakete</span> <span class="required" aria-hidden="true">*</span></legend>
+            <p class="form-hint" data-i18n="form.packageHint">Sie können ein Website-Paket und zusätzlich ein Wartungspaket auswählen.</p>
+            <div data-package-options></div>
+          </fieldset>
+          <div class="field"><label for="project_description"><span data-i18n="form.description">Projektbeschreibung</span> <span class="required" aria-hidden="true">*</span></label><textarea id="project_description" name="project_description" required></textarea></div>
+          <div class="grid two">
+            <div class="field"><label for="budget" data-i18n="form.budget">Budget</label><input id="budget" name="budget"></div>
+            <div class="field"><label for="deadline" data-i18n="form.deadline">Deadline</label><input id="deadline" name="deadline" type="date"></div>
+          </div>
+          <div class="honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+          <label class="checkbox"><input type="checkbox" name="privacy" value="1" required><span><span data-i18n="form.privacy">Ich stimme der Verarbeitung meiner Angaben gemäß Datenschutzerklärung zu.</span> <span class="required" aria-hidden="true">*</span></span></label>
+          <button class="button primary" type="submit" data-i18n="form.submit">Anfrage absenden</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-grid"><p data-i18n="footer.text">Moderne Websites für Unternehmen, Dienstleister und Sonderprojekte.</p><p><a href="/impressum/" data-i18n="legal.impressum">Impressum</a><br><a href="/datenschutz/" data-i18n="legal.privacy">Datenschutz</a><br><a href="/barrierefreiheit/" data-i18n="legal.accessibility">Barrierefreiheit</a></p><p><a href="/contact/" data-i18n="nav.contact">Kontakt</a></p></div></footer>
+  <script src="/assets/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "basic-care",
+    "name_de": "Basic Care",
+    "name_en": "Basic Care",
+    "price_de": "ab 49 € / Monat",
+    "price_en": "from €49 / month",
+    "description_de": "Für kleine Websites, bei denen gelegentliche Änderungen und eine grundlegende technische Betreuung ausreichen.",
+    "description_en": "For small websites where occasional changes and basic technical support are sufficient.",
+    "features_de": ["Bis zu 30 Minuten kleine Änderungen pro Monat", "Text- und Bildänderungen", "Grundlegende technische Kontrolle", "Kurzer monatlicher Check", "E-Mail-Support"],
+    "features_en": ["Up to 30 minutes of small changes per month", "Text and image changes", "Basic technical check", "Short monthly check", "Email support"],
+    "limits_de": "Nicht enthalten sind größere Designänderungen, neue Unterseiten, komplexe Funktionen oder rechtliche Beratung.",
+    "limits_en": "Major design changes, new pages, complex features or legal advice are not included.",
+    "highlight": false
+  },
+  {
+    "id": "business-care",
+    "name_de": "Business Care",
+    "name_en": "Business Care",
+    "price_de": "ab 99 € / Monat",
+    "price_en": "from €99 / month",
+    "description_de": "Für Unternehmen, die regelmäßig kleinere Änderungen, technische Pflege und schnelle Reaktionszeiten benötigen.",
+    "description_en": "For companies that need regular small changes, technical maintenance and fast response times.",
+    "features_de": ["Bis zu 90 Minuten Änderungen pro Monat", "Text-, Bild- und Inhaltsänderungen", "Technische Kontrolle", "Kleine SEO-Anpassungen", "Priorisierte Bearbeitung", "E-Mail-Support"],
+    "features_en": ["Up to 90 minutes of changes per month", "Text, image and content changes", "Technical check", "Small SEO adjustments", "Prioritized handling", "Email support"],
+    "limits_de": "Nicht enthalten sind komplette Redesigns, größere neue Funktionen oder externe Kosten für Hosting, Plugins oder Drittanbieter.",
+    "limits_en": "Complete redesigns, larger new features or external costs for hosting, plugins or third-party services are not included.",
+    "highlight": true
+  },
+  {
+    "id": "premium-care",
+    "name_de": "Premium Care",
+    "name_en": "Premium Care",
+    "price_de": "ab 199 € / Monat",
+    "price_en": "from €199 / month",
+    "description_de": "Für Unternehmen, die eine aktiv betreute Website mit regelmäßigen Optimierungen und mehr Änderungsumfang wünschen.",
+    "description_en": "For companies that want an actively maintained website with regular optimizations and a larger change budget.",
+    "features_de": ["Bis zu 3 Stunden Änderungen pro Monat", "Regelmäßige Inhalts- und Strukturverbesserungen", "Technische Kontrolle", "SEO- und Performance-Basisoptimierung", "Priorisierter Support", "Monatliche kurze Zusammenfassung der erledigten Arbeiten"],
+    "features_en": ["Up to 3 hours of changes per month", "Regular content and structure improvements", "Technical check", "Basic SEO and performance optimization", "Prioritized support", "Monthly short summary of completed work"],
+    "limits_de": "Nicht enthalten sind sehr große neue Funktionen, komplette Relaunches, rechtliche Beratung oder externe Dienstleisterkosten.",
+    "limits_en": "Very large new features, complete relaunches, legal advice or external service provider costs are not included.",
+    "highlight": false
+  }
+]
