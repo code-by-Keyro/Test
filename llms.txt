@@ -1,0 +1,35 @@
+﻿# Studio Zwei
+
+Studio Zwei is a small web design and web development agency by two founders. The brand name is a working placeholder and can be changed.
+
+Primary services:
+- Modern responsive websites for different industries and professions
+- Web design, HTML/CSS/JavaScript development and PHP contact forms
+- German/English multilingual websites
+- SEO base structure, semantic HTML and Schema.org structured data
+- Light mode, dark mode and accessible interaction patterns
+- Optional monthly maintenance contracts with clear time limits
+
+Website packages:
+- Starter: from EUR 799
+- Business: from EUR 1,499
+- Professional: from EUR 2,499
+- Custom: price on request
+
+Maintenance packages:
+- Basic Care: from EUR 49 / month, up to 30 minutes of small changes
+- Business Care: from EUR 99 / month, up to 90 minutes of changes
+- Premium Care: from EUR 199 / month, up to 3 hours of changes
+
+Prices are guide prices. Final pricing depends on scope, features, design requirements and technical complexity.
+
+Project process:
+1. Send inquiry
+2. Initial review and response within 24 hours
+3. Clarify offer and project scope
+4. Implementation
+5. Acceptance
+6. Optional maintenance contract
+
+Contact path:
+Use /contact and the contact form. A first response is promised within 24 hours at the latest.
