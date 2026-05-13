@@ -18,6 +18,8 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Bei kostenlosen Flaticon-Icons muss die notwendige Attribution beachtet werden.
 - Nach abgeschlossenen Aenderungen soll Codex fragen, ob die Aenderungen hochgeladen/gepusht werden duerfen.
 - Fuer jede einzelne Arbeit oder klar abgegrenzte Aenderung soll ein eigener, beschreibender Branch genutzt werden.
+- Aenderungen sollen klein, zusammenhaengend und ueber Pull Request pruefbar bleiben.
+- Bei riskanten Aenderungen soll vorab kurz begruendet werden, welche Dateien betroffen sind.
 - Nach Code-Aenderungen sollen `AGENTS.md`, `PROJECT_NOTES.md` und `README.md` auf notwendigen Aktualisierungsbedarf geprueft werden.
 
 ## Offene Punkte
