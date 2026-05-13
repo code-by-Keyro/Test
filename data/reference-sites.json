@@ -1,0 +1,38 @@
+[
+  {
+    "id": "craft-demo",
+    "title_de": "Handwerk Demo",
+    "title_en": "Craft Demo",
+    "industry_de": "Handwerk und lokale Dienstleistung",
+    "industry_en": "Craft and local services",
+    "description_de": "Referenz-Website als Platzhalter für einen klaren, lokalen Unternehmensauftritt.",
+    "description_en": "Reference website placeholder for a clear local business presence.",
+    "url": "#",
+    "status_de": "In Vorbereitung",
+    "status_en": "In preparation"
+  },
+  {
+    "id": "consulting-demo",
+    "title_de": "Beratung Demo",
+    "title_en": "Consulting Demo",
+    "industry_de": "Beratung und professionelle Dienstleistung",
+    "industry_en": "Consulting and professional services",
+    "description_de": "Referenz-Website als Platzhalter für ein strukturiertes Beratungsangebot.",
+    "description_en": "Reference website placeholder for a structured consulting offer.",
+    "url": "#",
+    "status_de": "In Vorbereitung",
+    "status_en": "In preparation"
+  },
+  {
+    "id": "practice-demo",
+    "title_de": "Praxis Demo",
+    "title_en": "Practice Demo",
+    "industry_de": "Praxis, Gesundheit und Termin-Anfrage",
+    "industry_en": "Practice, health and appointment inquiry",
+    "description_de": "Referenz-Website als Platzhalter für vertrauenswürdige Informationsarchitektur.",
+    "description_en": "Reference website placeholder for trustworthy information architecture.",
+    "url": "#",
+    "status_de": "In Vorbereitung",
+    "status_en": "In preparation"
+  }
+]

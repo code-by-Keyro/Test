@@ -1,0 +1,32 @@
+[
+  {
+    "question_de": "Wie schnell erhalte ich eine Rückmeldung?",
+    "question_en": "How quickly will I receive a response?",
+    "answer_de": "Wir prüfen jede Anfrage und melden uns spätestens innerhalb von 24 Stunden mit einer ersten Einschätzung.",
+    "answer_en": "We review every inquiry and respond within 24 hours at the latest with an initial assessment."
+  },
+  {
+    "question_de": "Sind die Paketpreise Festpreise?",
+    "question_en": "Are package prices fixed prices?",
+    "answer_de": "Die Preise sind Richtwerte ab dem genannten Betrag. Der finale Preis hängt von Umfang, Funktionen, Designwunsch und technischer Komplexität ab.",
+    "answer_en": "The prices are guide prices starting from the stated amount. The final price depends on scope, features, design requirements and technical complexity."
+  },
+  {
+    "question_de": "Nehmt ihr jedes Projekt an?",
+    "question_en": "Do you accept every project?",
+    "answer_de": "Nein. Wir prüfen, ob Anforderungen, Zeitrahmen und technische Komplexität sinnvoll zu uns passen. Falls nicht, sagen wir transparent ab.",
+    "answer_en": "No. We check whether requirements, timing and technical complexity are a sensible fit. If not, we decline transparently."
+  },
+  {
+    "question_de": "Kann die Website mehrsprachig werden?",
+    "question_en": "Can the website be multilingual?",
+    "answer_de": "Ja, Deutsch und Englisch sind möglich. Weitere Sprachen können je nach Projektumfang besprochen werden.",
+    "answer_en": "Yes, German and English are possible. Additional languages can be discussed depending on project scope."
+  },
+  {
+    "question_de": "Was ist in Wartungsverträgen enthalten?",
+    "question_en": "What is included in maintenance contracts?",
+    "answer_de": "Wartungspakete enthalten klar begrenzte monatliche Aenderungszeiten und technische Kontrollen. Groessere Arbeiten werden separat angeboten.",
+    "answer_en": "Maintenance packages include clearly limited monthly change time and technical checks. Larger work is quoted separately."
+  }
+]

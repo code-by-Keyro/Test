@@ -1,0 +1,49 @@
+DirectoryIndex index.html
+ErrorDocument 404 /404
+
+# Defense in depth: block internal folders and common sensitive file types.
+<IfModule mod_alias.c>
+  RedirectMatch 403 ^/(data)(/|$)
+  RedirectMatch 403 ^/backend/(?!contact\.php$|public-data\.php$)
+  RedirectMatch 403 ^/(README\.md|\.htaccess|\.env|.*\.log|.*\.sql|.*\.bak|.*\.ini|.*\.toml|composer\.(json|lock)|package(-lock)?\.json)$
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Block direct access to internal folders and sensitive project files.
+  RewriteRule ^\.git(/|$) - [F,L]
+  RewriteRule ^\.vscode(/|$) - [F,L]
+  RewriteRule ^data(/|$) - [F,L]
+  RewriteRule ^backend/(?!contact\.php$|public-data\.php$) - [F,L]
+  RewriteRule ^(README\.md|\.htaccess|\.env|.*\.log|.*\.sql|.*\.bak|.*\.ini|.*\.toml|composer\.(json|lock)|package(-lock)?\.json)$ - [F,L]
+
+  # Redirect visible file URLs to clean URLs.
+  RewriteCond %{THE_REQUEST} \s+/(.*?/)?index\.html[\s?] [NC]
+  RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteRule ^(.+)\.html$ /$1/ [R=301,L]
+
+  # Serve extensionless page URLs from their HTML files.
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
+
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(sitemap\.xml|robots\.txt|llms\.txt)$">
+    Require all granted
+  </FilesMatch>
+
+  <FilesMatch "^(README\.md|\.htaccess|\.env|.*\.log|.*\.sql|.*\.bak|.*\.ini|.*\.toml|composer\.(json|lock)|package(-lock)?\.json)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^(README\.md|\.htaccess|\.env|.*\.log|.*\.sql|.*\.bak|.*\.ini|.*\.toml|composer\.(json|lock)|package(-lock)?\.json)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
