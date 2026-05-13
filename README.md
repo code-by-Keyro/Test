@@ -19,6 +19,12 @@ Statische, mehrsprachige Agentur-Website mit HTML, CSS, JavaScript und PHP-Konta
 - `data/reference-sites.json`: Referenz- und Demo-Websites
 - `.htaccess`: saubere URLs ohne `.html` und Zugriffsschutz für interne Dateien
 - `robots.txt`, `sitemap.xml`, `llms.txt`: SEO- und KI-Lesbarkeit
+- `AGENTS.md`: dauerhafte Projektanweisungen für Codex
+- `PROJECT_NOTES.md`: laufende Entscheidungen, offene Punkte und Ideen
+
+## Projektregeln Für Änderungen
+
+Für jede einzelne Arbeit oder klar abgegrenzte Änderung soll ein eigener, beschreibender Branch genutzt werden. Vor Uploads oder Pushes soll Codex nach jeder abgeschlossenen Änderung fragen, ob diese hochgeladen werden darf. Nach Code-Änderungen sollen `AGENTS.md`, `PROJECT_NOTES.md` und `README.md` darauf geprüft werden, ob sie aktualisiert werden müssen.
 
 ## Texte Ändern
 

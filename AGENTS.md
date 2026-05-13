@@ -52,6 +52,10 @@ Optionale Felder:
 
 - Nicht direkt auf `main` pushen.
 - Fuer Aenderungen einen eigenen Branch nutzen.
+- Fuer jede einzelne Arbeit oder klar abgegrenzte Aenderung einen eigenen Branch erstellen.
+- Branch-Namen sollen kurz beschreiben, was grob geaendert wird, zum Beispiel `codex/hero-browserfenster-anpassen` oder `codex/kontakt-icons-ersetzen`.
+- Nach jeder abgeschlossenen Aenderung den Nutzer fragen, ob die Aenderung hochgeladen/gepusht werden darf.
+- Nur hochladen oder pushen, wenn der Nutzer es fuer diese Aenderung ausdruecklich erlaubt hat.
 - Bestehendes Design nicht unnoetig zerstoeren.
 - Bestehenden Stil beibehalten.
 - Keine grossen Umbauten ohne klare Begruendung.
@@ -59,4 +63,6 @@ Optionale Felder:
 - Nach Aenderungen kurz zusammenfassen, was geaendert wurde.
 - Bei groesseren Aenderungen Risiken oder offene Punkte nennen.
 - Wenn Projektentscheidungen entstehen, `PROJECT_NOTES.md` aktualisieren.
-
+- Nach jeder Code-Aenderung pruefen, ob `AGENTS.md`, `PROJECT_NOTES.md` oder `README.md` aktualisiert werden muessen.
+- `PROJECT_NOTES.md` aktualisieren, wenn neue Entscheidungen, offene Punkte, Risiken oder Ideen entstehen.
+- `README.md` aktualisieren, wenn sich Installation, Projektstruktur, Konfiguration, Deployment, Bedienung oder wichtige Pflegehinweise aendern.
