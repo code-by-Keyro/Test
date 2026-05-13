@@ -16,6 +16,9 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Wartungspakete sollen klare monatliche Grenzen nennen und nicht wie unbegrenzte Leistung wirken.
 - Flaticon-Icons werden lokal unter `assets/icons/flaticon/` eingebunden.
 - Bei kostenlosen Flaticon-Icons muss die notwendige Attribution beachtet werden.
+- Nach abgeschlossenen Aenderungen soll Codex fragen, ob die Aenderungen hochgeladen/gepusht werden duerfen.
+- Fuer jede einzelne Arbeit oder klar abgegrenzte Aenderung soll ein eigener, beschreibender Branch genutzt werden.
+- Nach Code-Aenderungen sollen `AGENTS.md`, `PROJECT_NOTES.md` und `README.md` auf notwendigen Aktualisierungsbedarf geprueft werden.
 
 ## Offene Punkte
 
@@ -27,6 +30,7 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Kontaktformular serverseitig final konfigurieren und Mailversand testen.
 - Rate-Limiting oder Spam-Schutz fuer das Kontaktformular finalisieren.
 - Sitemap, robots.txt und llms.txt vor Livegang mit echter Domain aktualisieren.
+- Bei kuenftigen Aenderungen konsequent pruefen, ob Projektregeln, Projektnotizen oder README mit angepasst werden muessen.
 
 ## Ideen
 
@@ -35,4 +39,3 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Spaeter echte Kundenreferenzen, Branchenbeispiele und Vorher-Nachher-Strukturen ergaenzen.
 - Trust-Bereich mit Antwortzeit, Wartbarkeit, SEO-Grundstruktur und Datenschutz-Hinweisen weiter ausbauen.
 - Bei Wachstum eventuell kleine Admin- oder JSON-Pflegeoberflaeche fuer Inhalte pruefen.
-
