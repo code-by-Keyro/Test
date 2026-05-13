@@ -51,9 +51,14 @@ Optionale Felder:
 ## Arbeitsregeln fuer Codex
 
 - Nicht direkt auf `main` pushen.
+- Main darf nicht direkt veraendert werden.
+- Arbeite immer auf einem eigenen Branch.
 - Fuer Aenderungen einen eigenen Branch nutzen.
 - Fuer jede einzelne Arbeit oder klar abgegrenzte Aenderung einen eigenen Branch erstellen.
 - Branch-Namen sollen kurz beschreiben, was grob geaendert wird, zum Beispiel `codex/hero-browserfenster-anpassen` oder `codex/kontakt-icons-ersetzen`.
+- Erstelle kleine, zusammenhaengende Aenderungen.
+- Aenderungen muessen ueber Pull Request pruefbar sein.
+- Bei riskanten Aenderungen vorher kurz begruenden, welche Dateien betroffen sind.
 - Nach jeder abgeschlossenen Aenderung den Nutzer fragen, ob die Aenderung hochgeladen/gepusht werden darf.
 - Nur hochladen oder pushen, wenn der Nutzer es fuer diese Aenderung ausdruecklich erlaubt hat.
 - Bestehendes Design nicht unnoetig zerstoeren.
