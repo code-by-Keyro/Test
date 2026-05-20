@@ -27,8 +27,8 @@ Zielgruppen sind kleine und mittlere Unternehmen, Selbststaendige und lokale Bet
 
 ## Inhalte
 
-- Es soll drei normale Website-Pakete geben.
-- Ein viertes Paket soll als individuelles Paket mit "Preis auf Anfrage" gefuehrt werden.
+- Es soll vier normale Website-Pakete geben.
+- Ein fuenftes Paket soll als individuelles Paket mit "Preis auf Anfrage" gefuehrt werden.
 - Preise duerfen sichtbar angezeigt werden.
 - Preisangaben muessen immer mit einem Hinweis versehen sein, dass der endgueltige Preis je nach Anfrage, Umfang, Funktionen, Designwunsch und technischer Komplexitaet abweichen kann.
 

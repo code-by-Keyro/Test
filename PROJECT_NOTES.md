@@ -11,9 +11,11 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Die Website unterstuetzt Light Mode und Dark Mode.
 - Navigation soll mit sauberen Slash-URLs funktionieren, damit sie lokal und spaeter auf Webhosting nutzbar ist.
 - Wichtige interne Dateien und Ordner sollen auf Apache/Hetzner ueber `.htaccess` geschuetzt werden.
-- Website-Pakete bestehen aus drei sichtbaren Preis-Paketen und einem individuellen Paket mit "Preis auf Anfrage".
+- Website-Pakete bestehen aus vier sichtbaren Preis-Paketen und einem individuellen Paket mit "Preis auf Anfrage".
 - Preise werden als Richtwerte kommuniziert und koennen je nach Anforderungen abweichen.
 - Wartungspakete sollen klare monatliche Grenzen nennen und nicht wie unbegrenzte Leistung wirken.
+- Website-Pakete wurden auf Basic, Starter, Professional, Business und Individuell erweitert.
+- Wartungspakete wurden auf Basic, Starter, Professional und Individuell erweitert.
 - Flaticon-Icons werden lokal unter `assets/icons/flaticon/` eingebunden.
 - Bei kostenlosen Flaticon-Icons muss die notwendige Attribution beachtet werden.
 - Nach abgeschlossenen Aenderungen soll Codex fragen, ob die Aenderungen hochgeladen/gepusht werden duerfen.
