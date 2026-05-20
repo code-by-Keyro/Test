@@ -16,6 +16,12 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Wartungspakete sollen klare monatliche Grenzen nennen und nicht wie unbegrenzte Leistung wirken.
 - Website-Pakete wurden auf Basic, Starter, Professional, Business und Individuell erweitert.
 - Wartungspakete wurden auf Basic, Starter, Professional und Individuell erweitert.
+- Die Preis-Seite soll als zentrale Uebersicht fuer Website-Pakete, Wartung, Hosting und individuelle Projekte dienen.
+- Die Wartungsseite soll Wartung, Hosting und Verwaltung erklaeren statt die Preislogik zu duplizieren.
+- Die Wartungs-CTA soll direkt zur Wartungssektion auf der Preis-Seite springen.
+- Die Farblogik soll klar bleiben: Gruen fuer Marke, Navigation und Hauptaktionen; Badge-Gold `#e2a66f` fuer Hervorhebungen, Marker, Badges und Hover-Akzente.
+- Website-Preise sollen vier vergleichbare Standardpakete als Reihe zeigen; individuelle Projekte werden als eigene breite Anfrage-Kachel darunter dargestellt.
+- Referenzen werden bis zu echten Kundenprojekten als klar gekennzeichnete Demo-Projekte aufgebaut.
 - Flaticon-Icons werden lokal unter `assets/icons/flaticon/` eingebunden.
 - Bei kostenlosen Flaticon-Icons muss die notwendige Attribution beachtet werden.
 - Nach abgeschlossenen Aenderungen soll Codex fragen, ob die Aenderungen hochgeladen/gepusht werden duerfen.

@@ -6,10 +6,28 @@
     "answer_en": "We review every inquiry and respond within 24 hours at the latest with an initial assessment."
   },
   {
+    "question_de": "Erstellt ihr nur neue Websites oder verbessert ihr auch bestehende Websites?",
+    "question_en": "Do you only build new websites or also improve existing ones?",
+    "answer_de": "Beides ist möglich. Wir können eine neue Website aufbauen oder bestehende Seiten in Struktur, Design, SEO, Geschwindigkeit und Kontaktführung verbessern.",
+    "answer_en": "Both are possible. We can build a new website or improve existing pages in structure, design, SEO, speed and contact flow."
+  },
+  {
+    "question_de": "Was kostet eine Website für kleine Unternehmen?",
+    "question_en": "What does a website for small businesses cost?",
+    "answer_de": "Unsere Website-Pakete starten bei 299 €. Der finale Preis hängt von Seitenumfang, Design, Funktionen, Sprachen, Inhalten und technischer Komplexität ab.",
+    "answer_en": "Our website packages start at €299. The final price depends on page scope, design, features, languages, content and technical complexity."
+  },
+  {
     "question_de": "Sind die Paketpreise Festpreise?",
     "question_en": "Are package prices fixed prices?",
     "answer_de": "Die Preise sind Richtwerte ab dem genannten Betrag. Der finale Preis hängt von Umfang, Funktionen, Designwunsch und technischer Komplexität ab.",
     "answer_en": "The prices are guide prices starting from the stated amount. The final price depends on scope, features, design requirements and technical complexity."
+  },
+  {
+    "question_de": "Bietet ihr Hosting, Wartung und Verwaltung an?",
+    "question_en": "Do you offer hosting, maintenance and management?",
+    "answer_de": "Ja. Wir bieten Wartungspakete mit klaren monatlichen Grenzen, technischer Kontrolle, Hosting und kleineren Änderungen an. Größere Arbeiten werden separat angeboten.",
+    "answer_en": "Yes. We offer maintenance packages with clear monthly limits, technical checks, hosting and smaller changes. Larger work is quoted separately."
   },
   {
     "question_de": "Nehmt ihr jedes Projekt an?",
@@ -24,9 +42,9 @@
     "answer_en": "Yes, German and English are possible. Additional languages can be discussed depending on project scope."
   },
   {
-    "question_de": "Was ist in Wartungsverträgen enthalten?",
-    "question_en": "What is included in maintenance contracts?",
-    "answer_de": "Wartungspakete enthalten klar begrenzte monatliche Aenderungszeiten und technische Kontrollen. Groessere Arbeiten werden separat angeboten.",
-    "answer_en": "Maintenance packages include clearly limited monthly change time and technical checks. Larger work is quoted separately."
+    "question_de": "Für welche Branchen erstellt ihr Websites?",
+    "question_en": "Which industries do you build websites for?",
+    "answer_de": "Wir arbeiten branchenoffen, besonders für lokale Betriebe, Handwerk, Praxen, Beratung, Gastronomie, Dienstleister und kleine bis mittlere Unternehmen.",
+    "answer_en": "We work across industries, especially for local businesses, craft companies, practices, consulting, hospitality, service providers and small to medium-sized companies."
   }
 ]

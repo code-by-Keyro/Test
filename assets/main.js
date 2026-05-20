@@ -147,6 +147,15 @@ function publicData(type, localFile) {
   return [`/backend/public-data.php?type=${type}`, `/data/${localFile.split("/").pop()}`, localFile];
 }
 
+function scrollToHashTarget() {
+  if (!window.location.hash) return;
+  const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+  if (!target) return;
+  requestAnimationFrame(() => {
+    target.scrollIntoView({ block: "start" });
+  });
+}
+
 function t(key) {
   return state.translations?.[state.lang]?.[key] || state.translations?.de?.[key] || key;
 }
@@ -211,8 +220,16 @@ function packageCard(item, type = "website") {
   const features = item[`features${suffix}`] || [];
   const ideal = item[`ideal_for${suffix}`] ? `<p><strong>${t("cards.ideal")}</strong> ${item[`ideal_for${suffix}`]}</p>` : "";
   const limits = item[`limits${suffix}`] ? `<p class="muted"><strong>${t("cards.limits")}</strong> ${item[`limits${suffix}`]}</p>` : "";
+  const cardClasses = [
+    "card",
+    "package-card",
+    `package-card--${type}`,
+    `package-card--${item.id}`,
+    item.price_type === "request" || item.id.includes("custom") ? "package-card--custom" : "",
+    item.highlight ? "highlight" : ""
+  ].filter(Boolean).join(" ");
   return `
-    <article class="card ${item.highlight ? "highlight" : ""}" data-animate itemprop="${type === "website" ? "itemListElement" : ""}" itemscope itemtype="https://schema.org/Offer">
+    <article class="${cardClasses}" data-animate itemprop="${type === "website" ? "itemListElement" : ""}" itemscope itemtype="https://schema.org/Offer">
       <h3 itemprop="name">${item[`name${suffix}`]}</h3>
       <p class="price" itemprop="priceSpecification">${item[`price${suffix}`]}</p>
       <p itemprop="description">${item[`description${suffix}`]}</p>
@@ -248,6 +265,7 @@ async function renderPackages() {
   populatePackageSelect(packages, maintenance);
   injectOfferCatalog(packages, maintenance);
   revealOnScroll();
+  scrollToHashTarget();
 }
 
 function populatePackageSelect(packages, maintenance) {
@@ -622,6 +640,8 @@ async function init() {
   await renderFaqs();
   await renderReferences();
   revealOnScroll();
+  window.addEventListener("hashchange", scrollToHashTarget);
+  scrollToHashTarget();
 }
 
 init();
