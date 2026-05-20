@@ -1,38 +1,50 @@
 [
   {
     "id": "craft-demo",
-    "title_de": "Handwerk Demo",
-    "title_en": "Craft Demo",
+    "title_de": "Demo für Handwerk",
+    "title_en": "Craft Business Demo",
     "industry_de": "Handwerk und lokale Dienstleistung",
     "industry_en": "Craft and local services",
-    "description_de": "Referenz-Website als Platzhalter für einen klaren, lokalen Unternehmensauftritt.",
-    "description_en": "Reference website placeholder for a clear local business presence.",
+    "description_de": "Beispiel für einen lokalen Betrieb mit klaren Leistungen, Kontaktweg, Google-Maps-Bezug und schneller mobiler Nutzung.",
+    "description_en": "Example for a local business with clear services, contact path, Google Maps context and fast mobile use.",
     "url": "#",
-    "status_de": "In Vorbereitung",
-    "status_en": "In preparation"
-  },
-  {
-    "id": "consulting-demo",
-    "title_de": "Beratung Demo",
-    "title_en": "Consulting Demo",
-    "industry_de": "Beratung und professionelle Dienstleistung",
-    "industry_en": "Consulting and professional services",
-    "description_de": "Referenz-Website als Platzhalter für ein strukturiertes Beratungsangebot.",
-    "description_en": "Reference website placeholder for a structured consulting offer.",
-    "url": "#",
-    "status_de": "In Vorbereitung",
-    "status_en": "In preparation"
+    "status_de": "Demo-Projekt in Vorbereitung",
+    "status_en": "Demo project in preparation"
   },
   {
     "id": "practice-demo",
-    "title_de": "Praxis Demo",
+    "title_de": "Demo für Praxis",
     "title_en": "Practice Demo",
     "industry_de": "Praxis, Gesundheit und Termin-Anfrage",
     "industry_en": "Practice, health and appointment inquiry",
-    "description_de": "Referenz-Website als Platzhalter für vertrauenswürdige Informationsarchitektur.",
-    "description_en": "Reference website placeholder for trustworthy information architecture.",
+    "description_de": "Beispiel für eine vertrauenswürdige Praxis-Website mit ruhiger Struktur, Leistungsbereichen und einfacher Anfrage.",
+    "description_en": "Example for a trustworthy practice website with calm structure, service areas and simple inquiry flow.",
     "url": "#",
-    "status_de": "In Vorbereitung",
-    "status_en": "In preparation"
+    "status_de": "Demo-Projekt in Vorbereitung",
+    "status_en": "Demo project in preparation"
+  },
+  {
+    "id": "restaurant-demo",
+    "title_de": "Demo für Gastronomie",
+    "title_en": "Hospitality Demo",
+    "industry_de": "Gastronomie, Restaurant und Cafe",
+    "industry_en": "Hospitality, restaurant and cafe",
+    "description_de": "Beispiel für Speisekarte, Öffnungszeiten, Standort, Reservierungsanfrage und starke mobile Darstellung.",
+    "description_en": "Example for menu, opening hours, location, reservation inquiry and strong mobile presentation.",
+    "url": "#",
+    "status_de": "Demo-Projekt in Vorbereitung",
+    "status_en": "Demo project in preparation"
+  },
+  {
+    "id": "consulting-demo",
+    "title_de": "Demo für Beratung",
+    "title_en": "Consulting Demo",
+    "industry_de": "Beratung und professionelle Dienstleistung",
+    "industry_en": "Consulting and professional services",
+    "description_de": "Beispiel für ein strukturiertes Angebot mit Expertenpositionierung, FAQ, Kontaktformular und klaren Leistungen.",
+    "description_en": "Example for a structured offer with expert positioning, FAQ, contact form and clear services.",
+    "url": "#",
+    "status_de": "Demo-Projekt in Vorbereitung",
+    "status_en": "Demo project in preparation"
   }
 ]
