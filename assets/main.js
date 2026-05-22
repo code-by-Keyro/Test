@@ -160,6 +160,10 @@ function t(key) {
   return state.translations?.[state.lang]?.[key] || state.translations?.de?.[key] || key;
 }
 
+function svgIcon(name, className = "") {
+  return `<svg class="icon-svg ${className}" aria-hidden="true"><use href="/assets/icons/heroicons.svg#${name}"></use></svg>`;
+}
+
 function applyTranslations() {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     el.textContent = t(el.dataset.i18n);
@@ -220,6 +224,17 @@ function packageCard(item, type = "website") {
   const features = item[`features${suffix}`] || [];
   const ideal = item[`ideal_for${suffix}`] ? `<p><strong>${t("cards.ideal")}</strong> ${item[`ideal_for${suffix}`]}</p>` : "";
   const limits = item[`limits${suffix}`] ? `<p class="muted"><strong>${t("cards.limits")}</strong> ${item[`limits${suffix}`]}</p>` : "";
+  const iconMap = {
+    basic: "device-phone-mobile",
+    starter: "rocket-launch",
+    professional: "chart-bar-square",
+    business: "globe-alt",
+    custom: "wrench-screwdriver",
+    "basic-care": "shield-check",
+    "starter-care": "clock",
+    "professional-care": "bolt",
+    "custom-care": "wrench-screwdriver"
+  };
   const cardClasses = [
     "card",
     "package-card",
@@ -230,6 +245,7 @@ function packageCard(item, type = "website") {
   ].filter(Boolean).join(" ");
   return `
     <article class="${cardClasses}" data-animate itemprop="${type === "website" ? "itemListElement" : ""}" itemscope itemtype="https://schema.org/Offer">
+      <span class="card-icon">${svgIcon(iconMap[item.id] || "code-bracket-square")}</span>
       <h3 itemprop="name">${item[`name${suffix}`]}</h3>
       <p class="price" itemprop="priceSpecification">${item[`price${suffix}`]}</p>
       <p itemprop="description">${item[`description${suffix}`]}</p>
@@ -245,7 +261,7 @@ function referenceCard(item) {
   const suffix = state.lang === "de" ? "_de" : "_en";
   return `
     <article class="reference-card" data-animate>
-      <span class="reference-meta"><span class="inline-icon">↗</span>${item[`industry${suffix}`]}</span>
+      <span class="reference-meta"><span class="inline-icon">${svgIcon("arrow-top-right-on-square")}</span>${item[`industry${suffix}`]}</span>
       <h3>${item[`title${suffix}`]}</h3>
       <p>${item[`description${suffix}`]}</p>
       <p class="reference-status">${item[`status${suffix}`]}</p>
@@ -299,14 +315,15 @@ async function renderFaqs() {
   const html = faqs.map((faq, index) => `
     <article class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <button type="button" aria-expanded="${index === 0 ? "true" : "false"}">
-        <span itemprop="name">${faq[`question${suffix}`]}</span><span aria-hidden="true">+</span>
+        <span class="faq-question"><span itemprop="name">${faq[`question${suffix}`]}</span></span>
+        <span class="faq-toggle-icon">${svgIcon("chevron-down")}</span>
       </button>
-      <div class="faq-answer" ${index === 0 ? "" : "hidden"} itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">${faq[`answer${suffix}`]}</p>
+      <div class="faq-answer ${index === 0 ? "is-open" : ""}" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div class="faq-answer-inner"><p itemprop="text">${faq[`answer${suffix}`]}</p></div>
       </div>
     </article>
   `).join("");
-  mounts.forEach((mount) => { mount.innerHTML = html; });
+  mounts.forEach((mount) => { mount.innerHTML = `<div class="faq-list">${html}</div>`; });
   injectFaqSchema(faqs);
 }
 
@@ -327,7 +344,7 @@ function bindFaqs() {
     const answer = button.parentElement.querySelector(".faq-answer");
     const expanded = button.getAttribute("aria-expanded") === "true";
     button.setAttribute("aria-expanded", String(!expanded));
-    answer.hidden = expanded;
+    answer.classList.toggle("is-open", !expanded);
   });
 }
 

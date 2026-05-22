@@ -197,7 +197,20 @@
     "pricing.websiteEyebrow": "Neue Website",
     "pricing.websiteIntro": "Vier klare Einstiegspunkte f\u00fcr typische Website-Projekte. Individuelle Anforderungen werden separat eingesch\u00e4tzt.",
     "pricing.maintenanceEyebrow": "Nach dem Launch",
-    "pricing.maintenanceIntro": "Laufende Betreuung mit klaren Grenzen, damit Pflege, Hosting und kleine \u00c4nderungen planbar bleiben."
+    "pricing.maintenanceIntro": "Laufende Betreuung mit klaren Grenzen, damit Pflege, Hosting und kleine \u00c4nderungen planbar bleiben.",
+    "standards.eyebrow": "Unsere Standards",
+    "standards.title": "Was jede gute Website mitbringen sollte",
+    "standards.lead": "Wir bauen nicht nach Bauchgef\u00fchl allein. Jede Website bekommt eine klare technische, inhaltliche und visuelle Grundlage.",
+    "standards.responsiveTitle": "Responsive Design",
+    "standards.responsiveText": "Lesbar und bedienbar auf Smartphone, Tablet, Laptop und gro\u00dfen Bildschirmen. Layout, Navigation und Kontaktwege werden so aufgebaut, dass Besucher schnell verstehen, wo sie klicken m\u00fcssen.",
+    "standards.seoTitle": "SEO-Grundstruktur",
+    "standards.seoText": "Saubere \u00dcberschriften, Meta-Daten, strukturierte Inhalte und maschinenlesbare Informationen. So wird die Website f\u00fcr Menschen, Suchmaschinen und KI-Systeme besser erfassbar.",
+    "standards.performanceTitle": "Performance",
+    "standards.performanceText": "Schlanke Dateien, klare Struktur und kurze Ladezeiten ohne unn\u00f6tige Abh\u00e4ngigkeiten. Wir achten darauf, dass die Website auch auf normalem Webhosting stabil bleibt.",
+    "standards.securityTitle": "Sichere Basis",
+    "standards.securityText": "SSL, saubere Formulare, sinnvolle Dateistruktur und vorbereitete Schutzma\u00dfnahmen. Sensible Einstellungen werden dokumentiert und nicht hart im Code versteckt.",
+    "faq.eyebrow": "Fragen und Antworten",
+    "faq.lead": "Kurz beantwortet, damit Preis, Ablauf und Umfang vor der Anfrage leichter einzuordnen sind."
   },
   "en": {
     "brand.name": "Studio Two",
@@ -397,6 +410,19 @@
     "pricing.websiteEyebrow": "New website",
     "pricing.websiteIntro": "Four clear starting points for typical website projects. Custom requirements are assessed separately.",
     "pricing.maintenanceEyebrow": "After launch",
-    "pricing.maintenanceIntro": "Ongoing support with clear limits, so maintenance, hosting and small changes stay predictable."
+    "pricing.maintenanceIntro": "Ongoing support with clear limits, so maintenance, hosting and small changes stay predictable.",
+    "standards.eyebrow": "Our standards",
+    "standards.title": "What every good website should include",
+    "standards.lead": "We do not build on gut feeling alone. Every website gets a clear technical, content and visual foundation.",
+    "standards.responsiveTitle": "Responsive design",
+    "standards.responsiveText": "Readable and usable on smartphones, tablets, laptops and large screens. Layout, navigation and contact paths are built so visitors quickly understand where to click.",
+    "standards.seoTitle": "SEO base structure",
+    "standards.seoText": "Clean headings, metadata, structured content and machine-readable information. This makes the website easier to understand for people, search engines and AI systems.",
+    "standards.performanceTitle": "Performance",
+    "standards.performanceText": "Lean files, clear structure and short loading times without unnecessary dependencies. We make sure the website remains stable on normal web hosting.",
+    "standards.securityTitle": "Secure foundation",
+    "standards.securityText": "SSL, clean forms, sensible file structure and prepared protection measures. Sensitive settings are documented and not hidden hard-coded in the code.",
+    "faq.eyebrow": "Questions and answers",
+    "faq.lead": "Short answers to make price, process and scope easier to understand before you inquire."
   }
 }
