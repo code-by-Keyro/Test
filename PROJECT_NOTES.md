@@ -22,8 +22,9 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Die Farblogik soll klar bleiben: Gruen fuer Marke, Navigation und Hauptaktionen; Badge-Gold `#e2a66f` fuer Hervorhebungen, Marker, Badges und Hover-Akzente.
 - Website-Preise sollen vier vergleichbare Standardpakete als Reihe zeigen; individuelle Projekte werden als eigene breite Anfrage-Kachel darunter dargestellt.
 - Referenzen werden bis zu echten Kundenprojekten als klar gekennzeichnete Demo-Projekte aufgebaut.
-- Flaticon-Icons werden lokal unter `assets/icons/flaticon/` eingebunden.
-- Bei kostenlosen Flaticon-Icons muss die notwendige Attribution beachtet werden.
+- Icons werden als lokales Heroicons-SVG-Sprite unter `assets/icons/heroicons.svg` eingebunden.
+- FAQ-Bereiche sollen als zweispaltige Orientierung plus Accordion aufgebaut sein.
+- Website-Standards sollen als eigener Abschnitt mit klaren, wiederkehrenden Qualitätskriterien sichtbar sein.
 - Nach abgeschlossenen Aenderungen soll Codex fragen, ob die Aenderungen hochgeladen/gepusht werden duerfen.
 - Fuer jede einzelne Arbeit oder klar abgegrenzte Aenderung soll ein eigener, beschreibender Branch genutzt werden.
 - Aenderungen sollen klein, zusammenhaengend und ueber Pull Request pruefbar bleiben.
@@ -35,7 +36,7 @@ Lebende Projektnotizen fuer Entscheidungen, offene Punkte und Ideen.
 - Finaler Firmenname, Logo und Markenidentitaet festlegen.
 - Finale Kontaktdaten eintragen: E-Mail, Telefon, WhatsApp, Social Media.
 - Rechtliche Seiten final pruefen lassen: Impressum, Datenschutz, Barrierefreiheit.
-- Flaticon-Lizenzen und Attribution vor Veroeffentlichung final pruefen.
+- Nicht mehr genutzte alte Icon-Dateien koennen vor dem Livegang entfernt werden, wenn keine Seite mehr darauf verweist.
 - Hosting-Setup auf Hetzner testen, inklusive `.htaccess`, PHP und sauberer Weiterleitungen.
 - Kontaktformular serverseitig final konfigurieren und Mailversand testen.
 - Rate-Limiting oder Spam-Schutz fuer das Kontaktformular finalisieren.
